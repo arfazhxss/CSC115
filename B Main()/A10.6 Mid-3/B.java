@@ -9,4 +9,7 @@ public class B extends A implements Comparable<A> {
     public void otherStuff() {
         System.out.println("B's other stuff: "+x);
     }
+    public int compareTo(A x) {
+        return this.compareTo(x);
+    }
 }
